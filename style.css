@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f3f4f6;
+    color: #1f2937;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .navbar .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li a {
+    color: #93c5fd;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* CONTENIDO */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+  }
+  
+  aside {
+    background: #1f2937;
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    max-width: 280px;
+    flex-shrink: 0;
+  }
+  
+  aside .avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  aside h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  aside p {
+    color: #9ca3af;
+    margin-bottom: 1.5rem;
+  }
+  
+  .aside-links li {
+    list-style: none;
+    margin: 0.5rem 0;
+  }
+  
+  .aside-links a {
+    color: #93c5fd;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding-left: 0;
+  }
+  
+  .tech-tags li {
+    list-style: none;
+    background: #374151;
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 900px;
+  }
+  
+  main h2 {
+    color: #1d4ed8;
+    margin-bottom: 1rem;
+  }
+  
+  .card {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+  
+  a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+
+  .lang-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .lang-btn img {
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+  }
+  
+  .lang-btn img:hover {
+    transform: scale(1.1);
+  }
+  
+  

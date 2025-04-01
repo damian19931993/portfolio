@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Damián</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV BAR -->
+  <nav class="navbar">
+    <span class="logo">Damián</span>
+    <ul class="nav-links">
+      <li><a href="#about" id="nav-about">About</a></li>
+      <li><a href="#projects" id="nav-projects">Projects</a></li>
+      <li><a href="#contact" id="nav-contact">Contact</a></li>
+      <li>
+        <button id="lang-toggle" class="lang-btn" title="Change language">
+          <img id="lang-icon" src="https://flagcdn.com/gb.svg" alt="Switch language" width="24" height="16" />
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <aside>
+      <img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="Foto de perfil" class="avatar">
+      <h1>Damián</h1>
+      <p>Backend Developer</p>
+      <ul class="aside-links">
+        <li><a href="mailto:tuemail@gmail.com">✉️ Email</a></li>
+        <li><a href="https://github.com/tuusuario" target="_blank">💻 GitHub</a></li>
+        <li><a href="https://linkedin.com/in/tuusuario" target="_blank">🔗 LinkedIn</a></li>
+      </ul>
+      <h2>Stack</h2>
+      <ul class="tech-tags">
+        <li>Java 21</li>
+        <li>Spring Boot</li>
+        <li>MySQL</li>
+        <li>Microservicios</li>
+        <li>Docker</li>
+      </ul>
+    </aside>
+
+    <main>
+        <section id="about">
+            <h2 id="about-title">About Me</h2>
+            <p id="about-text">
+              I'm a backend developer specialized in Java, Spring Boot, and MySQL. I’m currently working at GlobalLogic, where I develop microservices following best practices such as clean architecture, SOLID principles, and modern tools like Eureka, Feign, Spring Cloud Gateway, and Swagger.
+          
+              My focus is on building scalable services, writing unit tests, handling exceptions, consuming REST and SOAP APIs, and working within an Agile environment. I'm also experienced with quality tools like JaCoCo, SonarQube, and DBeaver for database management.
+          
+              I have a good command of English, both written and spoken, which allows me to understand technical documentation, participate in meetings, and communicate effectively with international teams.
+            </p>
+          </section>
+          
+      
+        <section id="projects">
+          <h2 id="projects-title">Projects</h2>
+          <div class="card">
+            <h3 id="p1-title">🧑‍🏫 School Manager</h3>
+            <p id="p1-desc">Web app to manage students, teachers and grades. Built with Java, Spring Boot, JWT, MySQL.</p>
+          </div>
+          <div class="card">
+            <h3 id="p2-title">💬 Messaging API</h3>
+            <p id="p2-desc">Distributed system with microservices, Eureka, Gateway, RabbitMQ and auth.</p>
+          </div>
+          <div class="card">
+            <h3 id="p3-title">🔁 JSON Translator</h3>
+            <p id="p3-desc">GraphQL consumer that transforms and translates data via REST service.</p>
+          </div>
+        </section>
+      
+        <section id="contact">
+          <h2 id="contact-title">Contact</h2>
+          <p id="contact-text">Feel free to email me at <a href="mailto:tuemail@gmail.com">tuemail@gmail.com</a> or connect via social media.</p>
+        </section>
+      
+        <footer>
+          <p id="footer-text">&copy; 2025 Damián - Backend Developer</p>
+        </footer>
+      </main>
+  </div>
+  <script src="lang.js"></script>
+</body>
+</html>
